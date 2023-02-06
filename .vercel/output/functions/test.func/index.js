@@ -3,5 +3,5 @@ export default async (req, res) => {
 		'content-type': 'application/json'
 	});
 
-	res.end('ok');
+	res.end(JSON.stringify(req.headers));
 };
