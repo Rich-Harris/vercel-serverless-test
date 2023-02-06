@@ -1,5 +1,6 @@
 {
 	"handler": "index.js",
 	"runtime": "nodejs18.x",
+	"regions": ["sfo1"],
 	"launcherType": "Nodejs"
 }
